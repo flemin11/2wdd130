@@ -1,0 +1,26 @@
+h1{
+    color: rgb(24, 222, 37);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+body{
+    background-image: linear-gradient(
+        black,green);
+}
+h2{
+    color: rgb(218, 21, 21);
+}
+h3{
+    color: rgb(194, 8, 8);
+}
+:any-link{
+    color: green;
+    background-image: linear-gradient(grey,white);
+    text-decoration: wavy;
+    font-size: 1.5em;
+    border: 2px solid white;
+    padding: 6px
