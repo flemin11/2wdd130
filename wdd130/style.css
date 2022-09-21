@@ -21,6 +21,8 @@ h3{
     color: green;
     background-image: linear-gradient(grey,white);
     text-decoration: wavy;
+    border-radius: 10px;
     font-size: 1.5em;
     border: 2px solid white;
     padding: 6px
+    
