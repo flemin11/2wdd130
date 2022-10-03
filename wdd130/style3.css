@@ -4,6 +4,9 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+.link:hover{
+    color: aqua;
+}
 img{
     width: 50%;
 }
@@ -23,6 +26,7 @@ h2{
 h3{
     color: rgb(194, 8, 8);
 }
+
 :any-link{
     color: green;
     background-image: linear-gradient(grey,white);
