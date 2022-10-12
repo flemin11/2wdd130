@@ -1,11 +1,13 @@
-#content {
-  max-width: 1600px;
-  margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&family=Roboto:wght@300&display=swap")
+.button5 {
+  color: #031c29;
 }
 nav a {
   text-align: center;
   color: #f7f7f7;
   text-decoration: none;
+  font-family: "Roboto", Helvetica, sans-serif;
+  padding: 35px;
 }
 #hero-msg {
   text-align: center;
@@ -19,11 +21,19 @@ nav a {
 main section {
   text-align: center;
 }
+h2 {
+  font-family: "Contrail One";
+  margin: 0;
+}
 #background {
   height: 725px;
 }
 body {
   background-color: #006494;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #031c29;
@@ -31,12 +41,21 @@ header {
 nav a:hover {
   background-color: #0582ca;
   color: #031c29;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 .book,
 .join {
   background-color: #006494;
   color: #f7f7f7;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
@@ -47,34 +66,75 @@ nav a:hover {
   background-color: #031c29;
 }
 .msg {
-  background-color: #f7f7f7;
+  background-color: #0582ca;
   color: #031c29;
+  font-family: "Contrail One";
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
-  background-color: #006494;
+  background-color: #0582ca;
   color: #031c29;
+  font-family: "Roboto", Helvetica, sans-serif;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 .home-title {
   color: #031c29;
+  font-family: "Contrail One";
+  font-size: 2em;
+  margin-top: 10px;
 }
 .home-title2 {
   color: #031c29;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 footer a:hover {
   color: #031c29;
   background-color: #0582ca;
   text-decoration: none;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 footer a {
   color: #f7f7f7;
   text-decoration: none;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 footer p {
   font-size: 1.2em;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 #social2 {
   width: 60px;
+  padding-top: 15px;
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #031c29;
+}
+main section img {
+  box-sizing: border-box;
+}
+.mountains {
+  margin: 35px 0px 80px 0px;
 }
