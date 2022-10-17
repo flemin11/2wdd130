@@ -1,0 +1,40 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+.big_image {
+  width: 1300px;
+}
+body {
+  background-color: white;
+  align-items: center;
+}
+footer {
+  background-color: #737373;
+  margin: 0;
+  padding: 0;
+  width: 1300px;
+}
+.images1 {
+  border-radius: 50%;
+  border: 10px solid #444444;
+  width: 200px;
+  margin: 40px 40px 40px 200px;
+}
+
+.images2 {
+  border-radius: 50%;
+  border: 10px solid #444444;
+  margin: 50px 40px;
+  width: 200px;
+}
+.images3 {
+  border-radius: 50%;
+  border: 10px solid #444444;
+  margin: 50px 40px;
+  width: 200px;
+}
+.margin {
+  margin: 40px 40px;
+  size-adjust: 40%;
+}
