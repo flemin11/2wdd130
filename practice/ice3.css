@@ -1,0 +1,45 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+  height: 400px;
+}
+.image {
+  z-index: 0;
+  height: 400px;
+  width: 400px;
+  margin: 0px -525px 75px 0px;
+  text-align: center;
+}
+.h1_tart {
+  font-size: 100px;
+  text-align: center;
+  margin: -375px -75px 0px 0px;
+  z-index: 2;
+  letter-spacing: 5px;
+}
+.yeet {
+  justify-items: center;
+  grid-column: 1/2;
+  width: 400px;
+  height: 500px;
+}
+.h1_sweet {
+  text-align: center;
+  font-size: 100px;
+  margin: 100px 25px 75px -50px;
+  letter-spacing: 5px;
+}
+.cherries {
+  color: #9c0e11;
+  font-size: 50px;
+  margin: 50px 25px 75px -50px;
+  letter-spacing: 5px;
+}
+.right_box {
+  background-color: #b9b8b9;
+  text-align: center;
+  grid-column: 2/3;
+  height: 400px;
+  width: 400px;
+}
