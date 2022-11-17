@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="personal.css" />
+    <link rel="stylesheet" href="styles/personal.css" />
     <title>Nifty Thrifty [Home]</title>
   </head>
   <body>
@@ -17,10 +17,33 @@
             alt="Nifty Thrifty logos"
           />
         </a>
-        <form id="search">
+        <form id="search2">
           <label for="search">Search</label><br />
           <input type="text" name="search" value="" /><br />
         </form>
+        <style>
+          form {
+            /* Just to center the form on the page */
+            width: 400px;
+            /* To see the outline of the form */
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 1em;
+          }
+          #feedback {
+            background-color: antiquewhite;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0.5em;
+            /* make this element invisible until we are ready for it */
+            display: none;
+          }
+          .moveDown {
+            margin-top: 3em;
+          }
+        </style>
         <nav>
           <a href="home.html">Home</a>
           <a href="buy.html">Buy</a>
