@@ -1,0 +1,49 @@
+.block1 {
+  margin-right: auto;
+}
+.block2 {
+  margin: auto;
+}
+.block3 {
+  margin-left: auto;
+}
+.block4 {
+  margin: auto;
+  width: 450px;
+}
+.content {
+  width: 100px;
+  padding: 10px;
+}
+section {
+  background-color: aqua;
+  width: 400px;
+  border: 2px solid black;
+}
+.p1 {
+  margin-right: auto;
+}
+.p2 {
+  padding: 0px 0px 0px 120px;
+}
+.p3 {
+  padding: 0px 0px 0px 260px;
+}
+.p4 {
+  padding: 0px 0px 0px 55px;
+}
+.p5 {
+  padding: 0px 0px 0px 70px;
+}
+.p6 {
+  padding: 0px 0px 0px 50px;
+}
+.p7 {
+  padding: 0px 0px 0px 260px;
+}
+.p8 {
+  padding: 0px 0px 0px 90px;
+}
+.p11 {
+  padding: 0px 0px 0px 170px;
+}
