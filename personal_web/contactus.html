@@ -11,124 +11,34 @@
     <div id="content">
       <header>
         <a id="logo_link" href="home.html">
-        <img class="logo" src="images2/my_logo.png" alt="logos" />
+          <img class="logo" src="images2/my_logo.png" alt="logos" />
         </a>
-        <form id="search2">
-          <label for="search">Search</label><br />
-          <input type="text" name="search" value="" /><br />
-        </form>
-        <nav>
-        <a href="home.html">Home</a>
-        <a href="buy.html">Buy</a>
-        <a href="sell.html">Sell</a>
-        <a href="contactus.html">Contact Us</a>
+        <section>
+          <form id="search">
+            <label for="search">Search</label><br />
+            <input type="text" name="search" value="" /><br />
+          </form>
+        </section>
+        <nav class="nav1">
+          <a class="yeet" href="home.html">Home</a>
+          <a class="yeet1" href="buy.html">Buy</a>
+          <a class="yeet2" href="sell.html">Sell</a>
+          <a class="yeet3" href="contactus.html">Contact Us</a>
         </nav>
       </header>
+      <section class="front">
+        <img class="front1" src="images2/contact1.jpg" alt="contact" />
+        <h1 class="front2">Contact Us</h1>
+      </section>
       <h1>
         Email or call me with any questions or informations about the website.
       </h1>
       <h1>Email: afleming9944@gmail.com</h1>
       <h1>Phone: 623-302-8350</h1>
-      <h1>To contact company, leave a message and we'll get back to you shortly.</h1>
-		  <style>
-			  form {
-				  /* Just to center the form on the page */
-				  margin: 0 auto;
-				  width: 400px;
-				  /* To see the outline of the form */
-				  padding: 1em;
-				  border: 1px solid #ccc;
-				  border-radius: 1em;
-			  }
-
-			  ul {
-				  list-style: none;
-				  padding: 0;
-				  margin: 0;
-			  }
-
-			  form li + li {
-				  margin-top: 1em;
-			  }
-
-			  label {
-				  /* To make sure that all labels have the same size and are properly aligned */
-				  display: inline-block;
-				  width: 90px;
-				  text-align: right;
-			  }
-
-			  input,
-			  textarea {
-				  /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
-				  font: 1em sans-serif;
-				  /* To give the same size to all text fields */
-				  width: 300px;
-				  box-sizing: border-box; /* To harmonize the look & feel of text field border */
-				  border: 1px solid #999;
-			  } 
-
-			  input:focus,
-			  textarea:focus {
-				  /* To give a little highlight on active elements */
-				  border-color: #000;
-			  }
-
-			  textarea {
-				  /* To properly align multiline text fields with their labels */
-				  vertical-align: top;
-				  /* To give enough room to type some text */
-				  height: 5em;
-			  }
-
-			  .button {
-				  /* To position the buttons to the same position of the text fields */
-				  padding-left: 90px;
-				  /* same size as the label elements */
-			  }
-
-			  button {
-				  /* This extra margin represent roughly the same space as the space between the labels and their text fields */
-				  margin-left: 0.5em;
-			  }
-        #feedback {
-          background-color: antiquewhite;
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          padding: .5em;
-          /* make this element invisible until we are ready for it */
-          display: none;      
-        }
-        .moveDown {
-          margin-top: 3em;
-        }
-		  </style>
-
-
-      <div id="feedback"></div>
-		  <form action="/my-handling-form-page" method="post">
-			  <ul>
-				  <li>
-					  <label for="name">Name:</label>
-					  <input type="text" id="name" name="user_name" />
-				  </li>
-				  <li>
-					  <label for="mail">E-mail:</label>
-					  <input type="email" id="mail" name="user_mail" />
-				  </li>
-				  <li>
-					  <label for="msg">Message:</label>
-					  <textarea id="msg" name="user_message"></textarea>
-				  </li>
-				  <li class="button">
-					  <button type="submit">Send your message</button>
-				  </li>
-			  </ul>
-		  </form>
-      </style>
-      <img src="images2/rsz_1smiley3.png" alt="smiley">
+      <h1>
+        To contact company, leave a message and we'll get back to you shortly.
+      </h1>
+      <img src="images2/rsz_1smiley3.png" alt="smiley" />
       <footer>
         <p>Nifty Thrifty &copy; 2022 - Ammon Fleming</p>
         <p><a href="site-plan.html">Site Plan</a></p>
@@ -139,7 +49,11 @@
             <img id="social2" src="images2/facebook2.png" alt="fb icon" />
           </a>
           <a href="https://twitter.com">
-            <img id="social2" src="images2/insta_logo2.png" alt="twitter icon" />
+            <img
+              id="social2"
+              src="images2/insta_logo2.png"
+              alt="twitter icon"
+            />
           </a>
           <a href="https://instagram.com">
             <img id="social2" src="images2/twitter_1.png" alt="insta icon" />
@@ -147,24 +61,5 @@
         </div>
       </footer>
     </div>
-    <script>
-      // get the feedback div element so we can do something with it.
-      const feedbackElement = document.getElementById('feedback');
-      // get the form so we can read what was entered in it.
-      const formElement = document.forms[0];
-      // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-      formElement.addEventListener('submit', function(e) {
-        // stop the form from doing the default action.
-        e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-        // make the feedback element visible.
-        feedbackElement.style.display = "block";
-        // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
-      });
-    </script>
-
   </body>
 </html>
-
