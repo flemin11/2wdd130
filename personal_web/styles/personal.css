@@ -18,10 +18,21 @@ body {
   color: #e9dcca;
   font-family: "Roboto", "Lora&family", sans-serif;
 }
+#search2 {
+  border: 4px solid #b33532;
+  width: 300px;
+  border-radius: 10px;
+  color: #525b63;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 1/2;
+  grid-row: 1/1;
+  margin: 40px;
+}
 header {
   background-color: #525b63;
   display: grid;
   grid-template-columns: 150px auto;
+  max-width: 100%;
 }
 .logo {
   width: 150px;
@@ -51,6 +62,7 @@ nav a:hover {
 .nav1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 100%;
 }
 .yeet {
   grid-column: 1/2;
@@ -205,20 +217,6 @@ nav a:hover {
   margin-top: -50px;
   font-weight: bold;
 }
-.text7 {
-  width: 200px;
-  height: 100px;
-  padding: 20px;
-  margin-top: -50px;
-  font-weight: bold;
-}
-.text8 {
-  width: 200px;
-  height: 100px;
-  padding: 20px;
-  margin-top: -50px;
-  font-weight: bold;
-}
 .featureditems1 {
   font-family: "Roboto", "Lora&family", sans-serif;
   background-color: #8bae98;
@@ -315,6 +313,74 @@ nav a:hover {
   transition: transform 0.4s;
   border: 5px solid #b33532;
 }
+.frontbuy {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  padding-left: 20px;
+}
+.photosbuy {
+  width: 170px;
+  height: 250px;
+  border: 2px solid #b33532;
+  padding: 20px;
+  margin: 40px 10px 30px 20px;
+}
+.photosbuy:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  box-shadow: 5px 5px 10px #8bae98;
+}
+.photobuy {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.photobuy2 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.photobuy3 {
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+.photobuy4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.photobuy5 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.photobuy6 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+.photobuy7 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.photobuy8 {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.photobuy9 {
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+.textbuy {
+  width: 200px;
+  height: 100px;
+  margin: 0px 0px 0px 25px;
+}
+.textbuy2 {
+  width: 200px;
+  height: 100px;
+  margin: 0px 0px 0px 25px;
+  font-weight: bold;
+  padding: 10px 0px 0px 0px;
+}
 footer {
   background-color: #525b63;
   color: #e9dcca;
@@ -324,6 +390,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 100%;
 }
 .footer2 {
   color: #e9dcca;
