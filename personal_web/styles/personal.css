@@ -8,6 +8,7 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   font-size: 22px;
+  min-width: 800px;
 }
 #search {
   border: 4px solid #b33532;
@@ -32,7 +33,6 @@ header {
   background-color: #525b63;
   display: grid;
   grid-template-columns: 150px auto;
-  max-width: 100%;
 }
 .logo {
   width: 150px;
@@ -62,7 +62,7 @@ nav a:hover {
 .nav1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  max-width: 100%;
+  width: 500px;
 }
 .yeet {
   grid-column: 1/2;
