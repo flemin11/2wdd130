@@ -111,14 +111,15 @@ nav a:hover {
 }
 .featureditems {
   font-family: "Roboto", "Lora&family", sans-serif;
-  background-color: #8bae98;
+  background-color: #525b63;
   margin: 40px auto;
-  color: #525b63;
+  color: #e9dcca;
   width: 300px;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
 }
+
 .featured {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -219,9 +220,9 @@ nav a:hover {
 }
 .featureditems1 {
   font-family: "Roboto", "Lora&family", sans-serif;
-  background-color: #8bae98;
+  background-color: #525b63;
   margin: 40px auto;
-  color: #525b63;
+  color: #e9dcca;
   width: 450px;
   text-align: center;
   border-radius: 10px;
@@ -381,6 +382,222 @@ nav a:hover {
   font-weight: bold;
   padding: 10px 0px 0px 0px;
 }
+.methods {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #525b63;
+  margin: 40px auto;
+  color: #e9dcca;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.to_sell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 75px 0px 0px 150px;
+}
+.to_sell1 {
+  grid-column: 1/2;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #e9dcca;
+  color: #8bae98;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: #8bae98 solid 5px;
+}
+.to_sell1:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  box-shadow: 5px 5px 10px #8bae98;
+}
+.to_sell2 {
+  grid-column: 2/3;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #e9dcca;
+  color: #8bae98;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: #8bae98 solid 5px;
+}
+.to_sell2:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  box-shadow: 5px 5px 10px #8bae98;
+}
+.to_sell3 {
+  grid-column: 3/4;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #e9dcca;
+  color: #8bae98;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: #8bae98 solid 5px;
+}
+.to_sell3:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  box-shadow: 5px 5px 10px #8bae98;
+}
+.facility {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #525b63;
+  color: #e9dcca;
+  margin: 75px 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.facility1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0px 0px 0px 20px;
+}
+.li1 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li2 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li3 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li4 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 4/5;
+  grid-row: 1/2;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li5 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li6 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li7 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  color: #8bae98;
+  font-weight: bold;
+}
+.li8 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  grid-column: 4/5;
+  grid-row: 2/3;
+  color: #8bae98;
+  font-weight: bold;
+}
+.whatsell1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0px 25px 0px;
+}
+.whatsell {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #525b63;
+  color: #e9dcca;
+  margin: 50px 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  grid-column: 1/2;
+}
+.whatsell2 {
+  grid-column: 2/3;
+  width: 75px;
+  margin-right: 1000px;
+  margin-top: 38px;
+}
+.whatsell3 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  color: #8bae98;
+  background-color: #e9dcca;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  width: 1100px;
+}
+.whatsell4 {
+  grid-column: 2/3;
+  width: 75px;
+  margin-right: 1000px;
+  margin-top: 50px;
+}
+.shipping {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #525b63;
+  color: #e9dcca;
+  margin: 50px 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  grid-column: 1/2;
+}
+.form1 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #525b63;
+  color: #e9dcca;
+  margin: 50px 160px;
+  width: 900px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.form2 {
+  grid-column: 1/2;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #e9dcca;
+  color: #8bae98;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: #8bae98 solid 5px;
+  font-size: 50px;
+  margin: 25px 0px 0px 425px;
+}
+.form2:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  box-shadow: 5px 5px 10px #8bae98;
+}
+
 footer {
   background-color: #525b63;
   color: #e9dcca;
@@ -392,6 +609,48 @@ footer {
   align-items: center;
   max-width: 100%;
 }
+.form3 {
+  font-family: "Roboto", "Lora&family", sans-serif;
+  background-color: #525b63;
+  margin: 40px auto;
+  color: #e9dcca;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.front3 {
+  grid-column: 1/2;
+  margin: -200px 0px 0px 50px;
+  color: #e9dcca;
+  border: 5px dashed #e9dcca;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: #525b63;
+  font-family: "Roboto", "Lora&family", sans-serif;
+}
+#ship_form1 {
+  border: 4px solid #b33532;
+  border-radius: 10px;
+  width: 1000px;
+  color: #525b63;
+  font-family: "Roboto", "Lora&family", sans-serif;
+  margin: 75px 0px 50px 125px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ship_form2 {
+  grid-column: 1/2;
+  color: #8bae98;
+  padding: 20px;
+}
+.ship_form3 {
+  grid-column: 2/3;
+  color: #8bae98;
+  padding: 20px;
+}
+
 .footer2 {
   color: #e9dcca;
 }
@@ -404,6 +663,7 @@ footer a:hover {
 footer p {
   font-size: 1.2em;
   font-family: "Roboto", "Lora&family", sans-serif;
+  color: #e9dcca;
 }
 #social2 {
   width: 60px;
