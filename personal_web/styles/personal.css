@@ -708,7 +708,7 @@ footer {
   color: #525b63;
   font-family: "Roboto", "Lora&family", sans-serif;
   padding: 20px;
-  margin: 20px 475px;
+  margin: 0 auto;
 }
 .email{
   text-decoration: underline;
