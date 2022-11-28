@@ -124,7 +124,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   font-family: "Roboto", "Lora&family", sans-serif;
-  padding-left: 20px;
+  padding-left: 55px;
 }
 .photo1 {
   width: 200px;
