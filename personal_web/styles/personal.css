@@ -232,7 +232,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: "Roboto", "Lora&family", sans-serif;
-  padding-left: 20px;
+  padding-left: 35px;
 }
 .photos1 {
   width: 150px;
